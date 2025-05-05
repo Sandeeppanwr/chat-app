@@ -11,19 +11,16 @@ import messageRoutes from "./routes/message.route.js"
 import {app,server} from "./lib/socket.js";
 dotenv.config()
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-const PORT=process.env.PORT||5001
-=======
-const PORT=process.env.PORT;
+
+
+
 
 const __dirname=path.resolve();
->>>>>>> Stashed changes
-=======
+ 
+
 const PORT=process.env.PORT;
 
-const __dirname=path.resolve();
->>>>>>> Stashed changes
+
 
 app.use(express.json());
 app.use(cookieParser());
